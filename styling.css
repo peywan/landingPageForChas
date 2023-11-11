@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+}
+
+.div1 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div2 {
+    grid-area: 1 / 9 / 2 / 10;
+}
+
+.div3 {
+    grid-area: 1 / 10 / 2 / 11;
+}
+
+.div4 {
+    grid-area: 1 / 11 / 2 / 12;
+}
+
+.div5 {
+    grid-area: 1 / 12 / 2 / 13;
+}
+
+.div6 {
+    grid-area: 2 / 5 / 4 / 9;
+}
+
+.div7 {
+    grid-area: 5 / 5 / 7 / 9;
+}
+
+.div8 {
+    grid-area: 8 / 5 / 10 / 9;
+}
+
+body {
+    background: grey;
+}
+
+.logo {
+    width: 10vh;
+    height: 10vh;
+}
+
+.container div a {
+    color: white;
+    text-decoration: none;
+}
